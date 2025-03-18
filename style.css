@@ -1,0 +1,125 @@
+*{
+    margin: 0 0 0 0;
+    animation: loadin 0.5s ease-in-out;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('slike/wood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: rgb(234, 209, 150);
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+h2 {
+    margin: 10px auto;
+}
+
+@keyframes loadin {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.topnav {
+    background-color: rgb(125, 10, 10);
+    overflow: hidden;
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.toplogo{
+    display: flex;
+    justify-content: center;
+    margin-left: 10PX;
+}
+
+.topmenu{
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.topbroj{
+    margin-right: 15px;
+}
+
+.naslov{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: 10px auto;
+    font-family: 'Anton', serif;
+}
+
+.slika {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pec{
+    border-radius: 20px;
+}
+
+.podnaslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', serif;
+    margin: 10px auto;
+    color: rgb(125, 10, 10);
+}
+
+.border-top-only {
+    border-top: 2px solid #000; /* Adjust color and thickness */
+    margin: 20px 0; /* Optional: Add margin to create space around the border */
+    opacity: 0.2;
+}
+
+.tekstislika{
+    display: flex;
+    margin: 0 50px;
+    font-family: 'Anton', serif;
+    font-size: larger;
+}
+
+.tekstic {
+    margin: 20px;
+}
+
+.galerija{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.pec1{
+    transition: transform 0.2s ease-in-out;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.pec1:hover{
+    transform: scale(1.2);
+    filter: brightness(70%) sepia(30%);
+    transition: transform 0.2s ease-in-out;
+}
