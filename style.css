@@ -123,3 +123,79 @@ h2 {
     filter: brightness(70%) sepia(30%);
     transition: transform 0.2s ease-in-out;
 }
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .topnav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 10px;
+        border-radius: 10px;
+    }
+
+    .toplogo {
+        margin: 0 auto;
+    }
+
+    .topmenu {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .topbroj {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .naslov {
+        width: 100%;
+        font-size: 1.2rem; /* Smaller font size for mobile */
+        text-align: center; /* Center align titles */
+        margin: 20px 0;
+    }
+
+    .slika {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tekstislika {
+        flex-direction: column;
+        margin: 10px 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .tekstic {
+        margin: 10px 0;
+    }
+
+    .galerija {
+        flex-direction: column;
+        gap: 15px;
+        margin: 10px auto;
+    }
+
+    .pec1 {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        text-align: center; /* Center align h2 titles */
+    }
+
+    .ognjiste {
+        display: flex;
+        justify-content: center; /* Center the element */
+        align-items: center;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
